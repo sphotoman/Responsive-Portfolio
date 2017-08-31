@@ -46,10 +46,12 @@ body{
 nav{
 	float: right;
 	margin-top: 25px;
+	color:silver;
+	
 }
 
 nav a {
-	color: 999;
+	color: silver;
 	text-decoration: none;
 	margin-left: 15px;
 	display: inline-block;
@@ -328,6 +330,7 @@ form {
 @media screen and (max-width: 640px ) {
 	#masthead {
 		position: relative;
+
 	}
 
 	.container {
@@ -342,7 +345,8 @@ form {
 	}
 
 	#masthead .container #nav a:first-child { 
-    	/*margin-left: 165px;*/
+    	margin-left: 165px;
+
 	
 		
 	}
@@ -360,6 +364,7 @@ form {
 
 
 	}
+
 	#main-container{
 		   padding-top: 25px;
 		   max-width: 600px;
